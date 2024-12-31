@@ -137,19 +137,20 @@ function animateLoop() {
 animateLoop();
 
 
-// Array of New Year Resolutions for Tech Audience
+// Array of Inspirational New Year Quotes for Innovation and Technology
 const quotes = [
-    "This year, let's focus on writing clean, reusable, and maintainable code.",
-    "Embrace learning a new technology or framework to stay ahead in the tech world.",
-    "Remember, great software starts with great communication. Collaborate effectively.",
-    "Keep security a priority—build with trust and integrity.",
-    "Automation saves time—invest in tools that enhance productivity.",
-    "Take breaks and refactor often—quality over quantity is the mantra for success.",
-    "Step into open-source contributions—it’s a way to give back and grow.",
-    "Test thoroughly—because bugs don't take vacations, but we do!",
-    "Document your work well—future you and your team will thank you.",
-    "Aim for performance optimization—great software delivers great experiences."
+    "Innovation is the ability to see change as an opportunity – not a threat. – Steve Jobs",
+    "The best way to predict the future is to invent it. – Alan Kay",
+    "Don’t wait for the perfect moment, take the moment and make it perfect. – Anonymous",
+    "Success is not the key to happiness. Happiness is the key to success. – Albert Schweitzer",
+    "Great things never come from comfort zones. – Anonymous",
+    "The only limit to our realization of tomorrow is our doubts of today. – Franklin D. Roosevelt",
+    "Creativity is intelligence having fun. – Albert Einstein",
+    "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. – Steve Jobs",
+    "The future belongs to those who believe in the beauty of their dreams. – Eleanor Roosevelt",
+    "Don’t be afraid to give up the good to go for the great. – John D. Rockefeller"
 ];
+
 
 
 // Function to change quotes
