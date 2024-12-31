@@ -123,7 +123,7 @@ setInterval(() => {
     }
 }, 200); // Adjust the interval (in milliseconds) as needed
 
-const year = new Date(2024, 0, 1).getFullYear();
+const year = new Date(2025, 0, 1).getFullYear();
 document.getElementById("newYear").innerHTML = `${year}`;
 
 // Always call the animate function at the bottom of the code!
@@ -135,3 +135,29 @@ function animateLoop() {
 }
 
 animateLoop();
+
+
+// Array of New Year Resolutions for Tech Audience
+const quotes = [
+    "This year, let's focus on writing clean, reusable, and maintainable code.",
+    "Embrace learning a new technology or framework to stay ahead in the tech world.",
+    "Remember, great software starts with great communication. Collaborate effectively.",
+    "Keep security a priority—build with trust and integrity.",
+    "Automation saves time—invest in tools that enhance productivity.",
+    "Take breaks and refactor often—quality over quantity is the mantra for success.",
+    "Step into open-source contributions—it’s a way to give back and grow.",
+    "Test thoroughly—because bugs don't take vacations, but we do!",
+    "Document your work well—future you and your team will thank you.",
+    "Aim for performance optimization—great software delivers great experiences."
+];
+
+
+// Function to change quotes
+function changeQuote() {
+    const quoteElement = document.getElementById("quote");
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    quoteElement.textContent = quotes[randomIndex];
+}
+
+// Change quote every 10 seconds
+setInterval(changeQuote, 10000);
