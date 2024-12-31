@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.new-year{
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    user-select: none;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .new-year{
+        font-size: 25px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .new-year{
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+}
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    .new-year{
+        font-size: 15px; /* Adjust font size for smaller screens */
+    }    
+}
+
+.yellowEffect{
+    color: #ffee10;
+    text-shadow: 0 0 15px #ffee10;
+}
+
+.footer-heart{text-align:center;font-family: 'Major Mono Display', monospace; font-size: 12px;}
+
+.footer-heart a{border-bottom: 1px solid #ffee10;color: #ffee10;padding-bottom: .25em; text-decoration: none;}
+
+.footer-heart a:hover{color:#ff7010; background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;}
